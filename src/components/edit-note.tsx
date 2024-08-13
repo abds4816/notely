@@ -94,7 +94,7 @@ const EditNote: FC<EditNoteProps> = ({ data }) => {
         />
         <Button type="submit" disabled={isLoading} className="w-full">
           {isLoading && <Loader2 className="size-4 animate-spin" />}
-          <span>updat note</span>
+          <span>update note</span>
         </Button>
       </form>
     </Form>
